@@ -1,0 +1,62 @@
+body {
+    max-width: 2560px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(141,140,68,1) 15%, rgba(121,9,94,1) 35%, rgba(104,37,116,1) 44%, rgba(158,73,91,1) 74%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Supermercado One', cursive;
+    font-size: 8vw;
+}
+h3{display: flex;
+justify-content: center;}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+}
+
+.finish {
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+}
+
+.convert {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn-convert{
+    font-size: 2vw;
+    font-family: 'Supermercado One', cursive;
+    border-radius: 10px;
+    border: 1px solid beige;
+}
+.btn-convert:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+#menu-start,#menu-finish{
+    border-radius: 10px;
+    margin-top: 2vw;
+}
+.window-start,.window-finish{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-left: 10px;
+}
